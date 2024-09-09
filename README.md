@@ -44,23 +44,23 @@ Network : Sepolia & Soneium Minato Testnet
    ```
    git clone https://github.com/Widiskel/soneium-testnet-bot.git` and cd to project dir `cd soneium-testnet-bot
    ```
+2. run
+   ```
+   npm install
+   ```
 3. run
-  ```
-  npm install
-  ```
-5. run
    ```
    cp accounts/accounts_tmp.js accounts/account.js
    ```
-7. configure your accounts
+5. configure your accounts
    ```
    nano accounts/account.js
    ```
-9. configure the bot config
+6. configure the bot config
     ```
    nano config/config.js
     ```
-11. to start the app run
+7. to start the app run
     ```
     npm run start
     ```
