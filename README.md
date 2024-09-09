@@ -94,9 +94,23 @@ Network : Sepolia & Soneium Minato Testnet
 ## Update Bot
 
 To update bot follow this step :
-1. run `git pull` or `git pull rebase` , if error run `git stash && git pull`
-2. run `npm update`
-3. start the bot
+1. run
+   ```
+   git pull
+   ```
+   or
+   ```
+   git pull --rebase
+   ```
+   if error run
+   ```
+   git stash && git pull
+   ```
+2. run
+   ```
+   npm update
+   ```
+2. start the bot
 
 ## CONTRIBUTE
 
@@ -107,6 +121,6 @@ Feel free to fork and contribute adding more feature thanks. To get original une
 want to support me for creating another bot ?
 **star** my repo or buy me a coffee on
 
-EVM : `0x0fd08d2d42ff086bf8c6d057d02d802bf217559a`
+EVM : `0x1f0ea6e0b3590e1ab6c12ea0a24d3d0d9bf7707d`
 
 SOLANA : `3tE3Hs7P2wuRyVxyMD7JSf8JTAmEekdNsQWqAnayE1CN`
