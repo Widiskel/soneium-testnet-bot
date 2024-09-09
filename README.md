@@ -40,23 +40,52 @@ Network : Sepolia & Soneium Minato Testnet
 ## Setup & Configure BOT
 
 ### Linux
-1. clone project repo `git clone https://github.com/Widiskel/soneium-testnet-bot.git` and cd to project dir `cd soneium-testnet-bot`
-2. run `npm install`
-3. run `cp accounts/accounts_tmp.js accounts/account.js`.
-4. configure your accounts `nano accounts/account.js`.
-5. configure the bot config `nano config/config.js`.
-6. to start the app run `npm run start`.
+1. clone project repo
+   ```
+   git clone https://github.com/Widiskel/soneium-testnet-bot.git` and cd to project dir `cd soneium-testnet-bot
+   ```
+3. run
+  ```
+  npm install
+  ```
+5. run
+   ```
+   cp accounts/accounts_tmp.js accounts/account.js
+   ```
+7. configure your accounts
+   ```
+   nano accounts/account.js
+   ```
+9. configure the bot config
+    ```
+   nano config/config.js
+    ```
+11. to start the app run
+    ```
+    npm run start
+    ```
    
 ### Windows
 1. Open your `Command Prompt` or `Power Shell`.
-2. Clone project repo `git clone https://github.com/Widiskel/soneium-testnet-bot.git` and cd to project dir `cd soneium-testnet-bot`
-3. Run `npm install`
-4. Navigate to `soneium-testnet-bot` directory. 
-5. Navigate to `accounts` folder and rename `accounts_tmp.js` to `accounts.js`.
-6. Now open `acccounts.js` and setup your accounts. 
-7. Now go back and Navigate to `config` and adjust the `config.js` as needed.
-8. Back to `soneium-testnet-bot` directory. 
-9.  To start the app open your `Command Prompt` or `Power Shell` again and run `node app/index.js`.
+2. Clone project repo
+   ```
+   git clone https://github.com/Widiskel/soneium-testnet-bot.git
+   ```
+   and cd to project dir
+   ```
+   cd soneium-testnet-bot
+   ```
+4. Run 
+   ```npm install```
+6. Navigate to `soneium-testnet-bot` directory. 
+7. Navigate to `accounts` folder and rename `accounts_tmp.js` to `accounts.js`.
+8. Now open `acccounts.js` and setup your accounts. 
+9. Now go back and Navigate to `config` and adjust the `config.js` as needed.
+10. Back to `soneium-testnet-bot` directory. 
+11.  To start the app open your `Command Prompt` or `Power Shell` again and run
+    ```npm run start```
+    or
+    ```node app/index.js```.
 
 ## Update Bot
 
