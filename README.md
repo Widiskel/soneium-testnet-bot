@@ -83,9 +83,13 @@ Network : Sepolia & Soneium Minato Testnet
 9. Now go back and Navigate to `config` and adjust the `config.js` as needed.
 10. Back to `soneium-testnet-bot` directory. 
 11.  To start the app open your `Command Prompt` or `Power Shell` again and run
-    ```npm run start```
+    ```
+    npm run start
+    ```
     or
-    ```node app/index.js```.
+    ```
+    node app/index.js
+    ```
 
 ## Update Bot
 
