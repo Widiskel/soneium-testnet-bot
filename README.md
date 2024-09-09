@@ -75,14 +75,14 @@ Network : Sepolia & Soneium Minato Testnet
    ```
    cd soneium-testnet-bot
    ```
-4. Run 
+3. Run 
    ```npm install```
-6. Navigate to `soneium-testnet-bot` directory. 
-7. Navigate to `accounts` folder and rename `accounts_tmp.js` to `accounts.js`.
-8. Now open `acccounts.js` and setup your accounts. 
-9. Now go back and Navigate to `config` and adjust the `config.js` as needed.
-10. Back to `soneium-testnet-bot` directory. 
-11.  To start the app open your `Command Prompt` or `Power Shell` again and run
+4. Navigate to `soneium-testnet-bot` directory. 
+5. Navigate to `accounts` folder and rename `accounts_tmp.js` to `accounts.js`.
+6. Now open `acccounts.js` and setup your accounts. 
+7. Now go back and Navigate to `config` and adjust the `config.js` as needed.
+8. Back to `soneium-testnet-bot` directory. 
+9.  To start the app open your `Command Prompt` or `Power Shell` again and run
     ```
     npm run start
     ```
