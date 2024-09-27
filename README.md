@@ -50,11 +50,11 @@ Network : Sepolia & Soneium Minato Testnet
    ```
 3. run
    ```
-   cp accounts/accounts_tmp.js accounts/account.js
+   cp accounts/accounts_tmp.js accounts/accounts.js
    ```
 5. configure your accounts
    ```
-   nano accounts/account.js
+   nano accounts/accounts.js
    ```
 6. configure the bot config
     ```
@@ -81,7 +81,7 @@ Network : Sepolia & Soneium Minato Testnet
    ```
 5. Navigate to `soneium-testnet-bot` directory. 
 6. Navigate to `accounts` folder and rename `accounts_tmp.js` to `accounts.js`.
-7. Now open `acccounts.js` and setup your accounts. 
+7. Now open `accounts.js` and setup your accounts. 
 8. Now go back and Navigate to `config` and adjust the `config.js` as needed.
 9. Back to `soneium-testnet-bot` directory. 
 10.  To start the app open your `Command Prompt` or `Power Shell` again and run
